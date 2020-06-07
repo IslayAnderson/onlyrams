@@ -8,6 +8,17 @@
 <link href="<?php echo $host ?>/css/bulma.min.css" rel="stylesheet"> <!-- Bulma Styles -->
 <title><?php echo $title; ?></title>
 <meta name="description" content="<?php echo $description; ?>">
+<script href="<?php echo $host ?>/scripts/jquery.min.js"></script>
+<script>
+	$(document).ready(function($) {
+		var Body = $('body');
+		Body.addClass('preloader-site');
+	});
+	$(window).on('load', function() {
+		$('#preloader').fadeOut();
+		$('body').removeClass('preloader-site');
+	});
+</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -17,6 +28,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->	
 </head>
 <body>
+<div class="loader-back" id="preloader">
+	<img src="<?php echo $host; ?>/images/logo-tb.png" alt="" style="width: 100vw;">
+</div>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
