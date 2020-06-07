@@ -5,3 +5,9 @@
 	position:fixed;
 	z-index:11;
 }
+.loader-back img{
+	width: 100%;
+    object-fit: contain;
+    object-position: center;
+    height: 100%;
+}

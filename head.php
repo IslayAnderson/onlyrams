@@ -10,10 +10,10 @@
 <meta name="description" content="<?php echo $description; ?>">
 <script href="<?php echo $host ?>/scripts/jquery.min.js"></script>
 <script>
-	$(document).ready(function($) {
+	/* $(document).ready(function($) {
 		var Body = $('body');
 		Body.addClass('preloader-site');
-	});
+	}); dont copy paste code from old projects */
 	$(window).on('load', function() {
 		$('#preloader').fadeOut();
 		$('body').removeClass('preloader-site');
@@ -29,7 +29,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </head>
 <body>
 <div class="loader-back" id="preloader">
-	<img src="<?php echo $host; ?>/images/logo-tb.png" alt="" style="width: 100vw;">
+	<img src="<?php echo $host; ?>/images/logo-tb.png" alt="">
 </div>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-"
