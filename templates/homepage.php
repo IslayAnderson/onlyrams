@@ -9,26 +9,26 @@ $top = '<section class="section">
 $i=0;
 $middle = '';
 while($i <= 4){
-	/*$o = rand(1, 27);*/
-	/*$name = $nameObj->{'name'};
+	$o = rand(1, 27);
+	$name = $nameObj->{'name'};
 	$handle = str_replace(' ', '', $name)'';
-	$address = $nameObj->{'address'};*/
+	$address = $nameObj->{'address'};
 	$middle .= '<div class="card column">
   <div class="card-image">
     <figure class="image is-4by3">
-      <img src="' . $host . '/images/Rams/' . /*$o .*/ '.jpg" alt="Placeholder image">
+      <img src="' . $host . '/images/Rams/' . $o . '.jpg" alt="Placeholder image">
     </figure>
   </div>
   <div class="card-content">
     <div class="media">
       <div class="media-left">
         <figure class="image is-48x48">
-          <img src="' . $host . '/images/Rams/' . /*$o .*/ '.jpg" alt="Placeholder image">
+          <img src="' . $host . '/images/Rams/' . $o . '.jpg" alt="Placeholder image">
         </figure>
       </div>
       <div class="media-content">
-        <p class="title is-4">' . /*$name .*/ '</p>
-        <p class="subtitle is-6">@' . /*$handle .*/ '</p>
+        <p class="title is-4">' . $name . '</p>
+        <p class="subtitle is-6">@' . $handle . '</p>
       </div>
     </div>
 
