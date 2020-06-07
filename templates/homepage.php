@@ -12,7 +12,7 @@ while($i < 4){
 	curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 	$return = curl_exec($ch);
 	$nameObj = json_decode($return);
-	$o = rand(1, 27);
+	$o = rand(1, 26);
 	$name = $nameObj->{'name'};
 	$handle = str_replace(' ', '', $name);
 	$middle .= '<div class="column"><div class="card">
