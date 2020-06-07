@@ -9,9 +9,9 @@ $top = '<section class="section">
 $i=0;
 while($i <= 4){
 	$o = rand(1, 27);
-	$name = $nameObj->{'name'};
-	$handle = /*str_replace(' ', '', $name)*/'';
-	$address = $nameObj->{'address'};
+	/*$name = $nameObj->{'name'};
+	$handle = str_replace(' ', '', $name)'';
+	$address = $nameObj->{'address'};*/
 	$middle .= '<div class="card column">
   <div class="card-image">
     <figure class="image is-4by3">
@@ -26,8 +26,8 @@ while($i <= 4){
         </figure>
       </div>
       <div class="media-content">
-        <p class="title is-4">' . $name . '</p>
-        <p class="subtitle is-6">@' . $handle . '</p>
+        <p class="title is-4">' . /*$name*/ . '</p>
+        <p class="subtitle is-6">@' . /*$handle*/ . '</p>
       </div>
     </div>
 
