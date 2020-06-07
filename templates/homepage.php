@@ -26,8 +26,8 @@ while($i <= 4){
         </figure>
       </div>
       <div class="media-content">
-        <p class="title is-4">' . /*$name*/ . '</p>
-        <p class="subtitle is-6">@' . /*$handle*/ . '</p>
+        <p class="title is-4">' . /*$name .*/ '</p>
+        <p class="subtitle is-6">@' . /*$handle .*/ '</p>
       </div>
     </div>
 
