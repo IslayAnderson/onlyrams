@@ -5,7 +5,7 @@ curl_setopt($ch, CURLOPT_URL, $url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 $return = curl_exec($ch);
 $nameObj = json_decode($return);
-echo $nameObj;
+var_dump($nameObj);
 $top = '<section class="section">
     <div class="container">
       <h1 class="title">featured Rams</h1>
