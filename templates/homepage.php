@@ -16,7 +16,7 @@ while($i < 4){
 	$name = $nameObj->{'name'};
 	$handle = str_replace(' ', '', $name);
 	$address = $nameObj->{'address'};
-	$middle .= '<div class="card column">
+	$middle .= '<div class="column"><div class="card">
   <div class="card-image">
     <figure class="image is-4by3">
       <img src="' . $host . '/images/Rams/' . $o . '.jpg" alt="Placeholder image">
@@ -39,7 +39,7 @@ while($i < 4){
     ' . $address . '
     </div>
   </div>
-</div>';
+</div></div>';
 $i++;
 }
 curl_close($ch);
