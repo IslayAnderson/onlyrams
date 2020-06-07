@@ -1,12 +1,13 @@
 <?php 
-/*$url = "https://api.name-fake.com/random/male";
+$url = "https://api.name-fake.com/random/male";
 $return = file_get_contents($url);
-$nameObj = json_decode($return);*/
+$nameObj = json_decode($return);
 $top = '<section class="section">
     <div class="container">
       <h1 class="title">featured Rams</h1>
 	  <div class="columns is-desktop">';
 $i=0;
+$middle = '';
 while($i <= 4){
 	$o = rand(1, 27);
 	/*$name = $nameObj->{'name'};
