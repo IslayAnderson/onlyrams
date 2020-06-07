@@ -8,12 +8,12 @@
 <link href="<?php echo $host ?>/css/bulma.min.css" rel="stylesheet"> <!-- Bulma Styles -->
 <title><?php echo $title; ?></title>
 <meta name="description" content="<?php echo $description; ?>">
-<script href="<?php echo $host ?>/scripts/jquery.min.js"></script>
+<script src="<?php echo $host ?>/scripts/jquery.min.js"></script>
 <script>
-	/* $(document).ready(function($) {
+	$(document).ready(function($) {
 		var Body = $('body');
 		Body.addClass('preloader-site');
-	}); dont copy paste code from old projects */
+	});
 	$(window).on('load', function() {
 		$('#preloader').fadeOut();
 		$('body').removeClass('preloader-site');

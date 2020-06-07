@@ -17,6 +17,6 @@
   </p>
   </div>
 </footer>
-	<script href="<?php echo $host ?>/scripts/functions.js" rel="text/javascript"></script> <!-- Functions.js -->
+	<script src="<?php echo $host ?>/scripts/functions.js" rel="text/javascript"></script> <!-- Functions.js -->
 </body>
 </html>
