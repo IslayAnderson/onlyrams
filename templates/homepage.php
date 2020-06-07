@@ -1,6 +1,9 @@
 <?php 
 $url = "https://api.name-fake.com/random/male";
-$return = file_get_contents($url);
+$ch = curl_init();
+curl_setopt($ch, CURLOPT_URL, $url);
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+$return = curl_exec($ch);
 $nameObj = json_decode($return);
 echo $nameObj;
 $top = '<section class="section">
@@ -40,6 +43,7 @@ while($i < 4){
 </div>';
 $i++;
 }
+curl_close($ch);
 $middle .= '
     </div>
 	</div>
