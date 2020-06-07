@@ -34,10 +34,6 @@ while($i < 4){
         <p class="subtitle is-6">@' . $handle . '</p>
       </div>
     </div>
-
-    <div class="content">
-    ' . $address . '
-    </div>
   </div>
 </div></div>';
 $i++;
