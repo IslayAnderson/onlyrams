@@ -1,7 +1,7 @@
 <?php 
-$url = "https://api.name-fake.com/random/male";
+/*$url = "https://api.name-fake.com/random/male";
 $return = file_get_contents($url);
-$nameObj = json_decode($return);
+$nameObj = json_decode($return);*/
 $top = '<section class="section">
     <div class="container">
       <h1 class="title">featured Rams</h1>
