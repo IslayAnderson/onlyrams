@@ -11,7 +11,7 @@ $middle = '';
 while($i <= 4){
 	$o = rand(1, 27);
 	$name = $nameObj->{'name'};
-	$handle = str_replace(' ', '', $name)'';
+	$handle = str_replace(' ', '', $name);
 	$address = $nameObj->{'address'};
 	$middle .= '<div class="card column">
   <div class="card-image">
