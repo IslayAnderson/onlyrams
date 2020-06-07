@@ -1,5 +1,5 @@
 <?php 
-$url = "https://api.name-fake.com/random/male";
+$url = "https://api.namefake.com/random/male";
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, $url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
