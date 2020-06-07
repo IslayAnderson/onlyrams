@@ -38,6 +38,7 @@ while($i <= 4){
     </div>
   </div>
 </div>';
+$i++;
 }
 $middle .= '
     </div>
