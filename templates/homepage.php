@@ -1,10 +1,6 @@
 <?php 
 $url = "https://api.namefake.com/random/male";
 $ch = curl_init();
-curl_setopt($ch, CURLOPT_URL, $url);
-curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-$return = curl_exec($ch);
-$nameObj = json_decode($return);
 $top = '<section class="section">
     <div class="container">
       <h1 class="title">featured Rams</h1>
@@ -12,6 +8,10 @@ $top = '<section class="section">
 $i=0;
 $middle = '';
 while($i < 4){
+	curl_setopt($ch, CURLOPT_URL, $url);
+	curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+	$return = curl_exec($ch);
+	$nameObj = json_decode($return);
 	$o = rand(1, 27);
 	$name = $nameObj->{'name'};
 	$handle = str_replace(' ', '', $name);
