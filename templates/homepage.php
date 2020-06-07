@@ -75,7 +75,7 @@ while($e < 27){
     </div>
   </div>
 </div></div>';
-$i++;
+$e++;
 }
 curl_close($ch);
 $middle .= '
