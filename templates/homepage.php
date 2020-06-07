@@ -42,12 +42,12 @@ $middle .= '
 	</div>
   </section>';
   
-$e=0;
+$e=1;
 $middle .= '<section class="section">
     <div class="container">
       <h1 class="title">Explore Rams</h1>
 	  <div class="columns is-desktop">';
-while($e < 27){
+while($e < 25){
 	curl_setopt($ch, CURLOPT_URL, $url);
 	curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 	$return = curl_exec($ch);
@@ -79,14 +79,14 @@ while($e < 27){
 		$middle .= '<div class="column"><div class="card">
   <div class="card-image">
     <figure class="image is-4by3">
-      <img src="' . $host . '/images/Rams/' . $e . '.jpg" alt="Placeholder image">
+      <img src="' . $host . '/images/Rams/' . $e . '.jpg" alt="' . $name . '">
     </figure>
   </div>
   <div class="card-content">
     <div class="media">
       <div class="media-left">
         <figure class="image is-48x48">
-          <img src="' . $host . '/images/Rams/' . $e . '.jpg" alt="Placeholder image">
+          <img src="' . $host . '/images/Rams/' . $e . '.jpg" alt="' . $name . '">
         </figure>
       </div>
       <div class="media-content">
