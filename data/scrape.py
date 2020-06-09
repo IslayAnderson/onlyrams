@@ -2,7 +2,7 @@ import xml.etree.cElementTree as x2j
 import json
 import sys
 import time
-import pandas as pd
+#import pandas as pd
 from bs4 import BeautifulSoup as bs
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
