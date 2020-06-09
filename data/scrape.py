@@ -23,9 +23,9 @@ options = Options()
 
 options.headless = True
 
-driver = webdriver.Firefox(options=options)
+#driver = webdriver.Firefox(options=options)
 
-#driver = webdriver.Firefox()
+driver = webdriver.Firefox()
 driver.implicitly_wait(2)
 
 i = 0
@@ -54,7 +54,7 @@ while e < b:
     final += scrape[e]
     e +=1
 
-with open(".\\json\\rams.json", "w+", encoding="utf-8") as file:
+with open(".//json//rams.json", "w+", encoding="utf-8") as file:
         file.write(str(final))
 
 driver.quit()
