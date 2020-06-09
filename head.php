@@ -35,20 +35,30 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KXR6NL2"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->	
+<div class="level">
+  <p class="level-item has-text-centered">
+  </p>
+  <p class="level-item has-text-centered">
+  </p>
+  <p class="level-item has-text-centered">
+    <img src="<?php echo $host; ?>/images/logo-tb-X-90.png" alt="onlyrams logo">
+  </p>
+  <p class="level-item has-text-centered">
+  </p>
+  <p class="level-item has-text-centered">
+  </p>
+</div>
 <nav class="level">
   <p class="level-item has-text-centered">
     <a class="link is-info">Home</a>
   </p>
   <p class="level-item has-text-centered">
-    <a class="link is-info">Menu</a>
+    <a class="link is-info">contact Us</a>
   </p>
   <p class="level-item has-text-centered">
-    <img src="<?php echo $host; ?>/images/logo-tb-X-90.png" alt="" style="height: 30px;">
+    <a class="link is-info">Submit Your Ram</a>
   </p>
   <p class="level-item has-text-centered">
-    <a class="link is-info">Reservations</a>
-  </p>
-  <p class="level-item has-text-centered">
-    <a class="link is-info">Contact</a>
+    <a class="link is-info">Legal information</a>
   </p>
 </nav>
