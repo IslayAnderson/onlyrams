@@ -23,7 +23,7 @@ options = Options()
 
 options.headless = True
 
-driver = webdriver.Firefox(options=options executable_path=r'geckodriver')
+driver = webdriver.Firefox(executable_path = r'geckodriver')
 
 #driver = webdriver.Firefox()
 driver.implicitly_wait(2)
