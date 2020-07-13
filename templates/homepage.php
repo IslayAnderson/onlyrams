@@ -17,16 +17,17 @@ while($i < 100){
 									<img src="' . $xml2->root->img[$i] . '" alt="Placeholder image">
 								</figure>
 							</div>
-						<div class="card-content">
-							<div class="media">
-								<div class="media-left">
-									<figure class="image is-48x48">
-										<img src="' . $xml2->root[$i]->img . '" alt="Placeholder image">
-									</figure>
-								</div>
-								<div class="media-content">
-									<p class="title is-4">' . $xml2->root->title[$i] . '</p>
-									<p class="subtitle is-6">' . $xml2->root->location[$i] . ', ' . $xml2->root->age[$i] . '</p>
+							<div class="card-content">
+								<div class="media">
+									<div class="media-left">
+										<figure class="image is-48x48">
+											<img src="' . $xml2->root[$i]->img . '" alt="Placeholder image">
+										</figure>
+									</div>
+									<div class="media-content">
+										<p class="title is-4">' . $xml2->root->title[$i] . '</p>
+										<p class="subtitle is-6">' . $xml2->root->location[$i] . ', ' . $xml2->root->age[$i] . '</p>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -42,16 +43,17 @@ while($i < 100){
 									<img src="' . $xml2->root->img[$i] . '" alt="Placeholder image">
 								</figure>
 							</div>
-						<div class="card-content">
-							<div class="media">
-								<div class="media-left">
-									<figure class="image is-48x48">
-										<img src="' . $xml2->root[$i]->img . '" alt="Placeholder image">
-									</figure>
-								</div>
-								<div class="media-content">
-									<p class="title is-4">' . $xml2->root->title[$i] . '</p>
-									<p class="subtitle is-6">' . $xml2->root->location[$i] . ', ' . $xml2->root->age[$i] . '</p>
+							<div class="card-content">
+								<div class="media">
+									<div class="media-left">
+										<figure class="image is-48x48">
+											<img src="' . $xml2->root[$i]->img . '" alt="Placeholder image">
+										</figure>
+									</div>
+									<div class="media-content">
+										<p class="title is-4">' . $xml2->root->title[$i] . '</p>
+										<p class="subtitle is-6">' . $xml2->root->location[$i] . ', ' . $xml2->root->age[$i] . '</p>
+									</div>
 								</div>
 							</div>
 						</div>
