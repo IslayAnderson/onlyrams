@@ -14,14 +14,14 @@ while($i < 100){
 						<div class="card">
 							<div class="card-image">
 								<figure class="image is-4by3">
-									<img src="' . $xml2->img[$i] . '" alt="Placeholder image">
+									<img class="lazy-load-me" desk-src="' . $xml2->img[$i] . '" alt="Placeholder image">
 								</figure>
 							</div>
 							<div class="card-content">
 								<div class="media">
 									<div class="media-left">
 										<figure class="image is-48x48">
-											<img src="' . $xml2->img[$i] . '" alt="Placeholder image">
+											<img class="lazy-load-me" desk-src="' . $xml2->img[$i] . '" alt="Placeholder image">
 										</figure>
 									</div>
 									<div class="media-content">
@@ -41,14 +41,14 @@ while($i < 100){
 						<div class="card">
 							<div class="card-image">
 								<figure class="image is-4by3">
-									<img src="' . $xml2->img[$i] . '" alt="Placeholder image">
+									<img class="lazy-load-me" desk-src="' . $xml2->img[$i] . '" alt="Placeholder image">
 								</figure>
 							</div>
 							<div class="card-content">
 								<div class="media">
 									<div class="media-left">
 										<figure class="image is-48x48">
-											<img src="' . $xml2->img[$i] . '" alt="Placeholder image">
+											<img class="lazy-load-me" desk-src="' . $xml2->img[$i] . '" alt="Placeholder image">
 										</figure>
 									</div>
 									<div class="media-content">
