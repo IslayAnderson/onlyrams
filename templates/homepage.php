@@ -10,49 +10,50 @@ $middle = '';
 while($i < 100){
 	if($i % 4 == 0){
 	$middle .= '<div class="column">
-					<a href="' . $xml2->root->url[$i] . '">
+					<a href="' . $xml2->root[0]->url[$i] . '">
 						<div class="card">
 							<div class="card-image">
 								<figure class="image is-4by3">
-									<img src="' . $xml2->root->img[$i] . '" alt="Placeholder image">
+									<img src="' . $xml2->root[0]->img[$i] . '" alt="Placeholder image">
 								</figure>
 							</div>
 							<div class="card-content">
 								<div class="media">
 									<div class="media-left">
 										<figure class="image is-48x48">
-											<img src="' . $xml2->root[$i]->img . '" alt="Placeholder image">
+											<img src="' . $xml2->root[0]->img[$i] . '" alt="Placeholder image">
 										</figure>
 									</div>
 									<div class="media-content">
-										<p class="title is-4">' . $xml2->root->title[$i] . '</p>
-										<p class="subtitle is-6">' . $xml2->root->location[$i] . ', ' . $xml2->root->age[$i] . '</p>
+										<p class="title is-4">' . $xml2->root[0]->title[$i] . '</p>
+										<p class="subtitle is-6">' . $xml2->root[0]->location[$i] . ', ' . $xml2->root[0]->age[$i] . '</p>
 									</div>
 								</div>
 							</div>
 						</div>
 					</a>
 				</div>
+				</div>
 				<div class="columns is-desktop">';
 }else{
 	$middle .= '<div class="column">
-					<a href="' . $xml2->root->url[$i] . '">
+					<a href="' . $xml2->root[0]->url[$i] . '">
 						<div class="card">
 							<div class="card-image">
 								<figure class="image is-4by3">
-									<img src="' . $xml2->root->img[$i] . '" alt="Placeholder image">
+									<img src="' . $xml2->root[0]->img[$i] . '" alt="Placeholder image">
 								</figure>
 							</div>
 							<div class="card-content">
 								<div class="media">
 									<div class="media-left">
 										<figure class="image is-48x48">
-											<img src="' . $xml2->root[$i]->img . '" alt="Placeholder image">
+											<img src="' . $xml2->root[0]->img[$i] . '" alt="Placeholder image">
 										</figure>
 									</div>
 									<div class="media-content">
-										<p class="title is-4">' . $xml2->root->title[$i] . '</p>
-										<p class="subtitle is-6">' . $xml2->root->location[$i] . ', ' . $xml2->root->age[$i] . '</p>
+										<p class="title is-4">' . $xml2->root[0]->title[$i] . '</p>
+										<p class="subtitle is-6">' . $xml2->root[0]->location[$i] . ', ' . $xml2->root[0]->age[$i] . '</p>
 									</div>
 								</div>
 							</div>
