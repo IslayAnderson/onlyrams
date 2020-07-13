@@ -31,10 +31,8 @@ while($i < 100){
         <p class="subtitle is-6">' . $xml2->sheep->location[$i] . ', ' . $xml2->sheep->age[$i] . '</p>
       </div>
 	  </div>
-	  </div>
-	  </div><div class="columns is-desktop">';
-}else{
-	$middle .= '<div class="column"><a href="' . $xml2->sheep->url[$i] . '"><div class="card">
+	  </div>';
+}else{$middle .= '<div class="column"><a href="' . $xml2->sheep->url[$i] . '"><div class="card">
   <div class="card-image">
     <figure class="image is-4by3">
       <img src="' . $xml2->sheep->img[$i] . '" alt="Placeholder image">
@@ -52,8 +50,8 @@ while($i < 100){
         <p class="subtitle is-6">' . $xml2->sheep->location[$i] . ', ' . $xml2->sheep->age[$i] . '</p>
       </div>
 	  </div>
-	  </div>';
-}
+	  </div>
+	  </div><div class="columns is-desktop">';
 	$i++;
 	}
 
