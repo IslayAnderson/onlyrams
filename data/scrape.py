@@ -35,7 +35,7 @@ print("==============================")
 print(scrape)
 print("==============================")
 
-with open(".//json//rams.json", "w", encoding="utf-8") as file:
+with open("/var/www/vhosts/onlyrams.co.uk/httpdocs/data/json/rams.json", "w", encoding="utf-8") as file:
         file.write(str(scrape[0]))
 
 driver.quit()

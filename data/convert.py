@@ -2,7 +2,7 @@ import xml.etree.cElementTree as x2j
 import json
 import sys
 
-with open(".\\json\\rams.json") as json_format_file: 
+with open("/var/www/vhosts/onlyrams.co.uk/httpdocs/data/json/rams.json") as json_format_file: 
   d = json.load(json_format_file)
 
 len = len(d)
@@ -20,4 +20,4 @@ while i < len:
 
 a = x2j.ElementTree(r)
 
-a.write(".\\json\\rams.xml")
+a.write("/var/www/vhosts/onlyrams.co.uk/httpdocs/data/json/rams.xml")
