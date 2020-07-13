@@ -8,7 +8,7 @@ $top = '<section class="section">
 $i=0;
 $middle = '';
 while($i < 100){
-	if($i % 4 == 0){
+	if($i % 4 == 0 && $i != 0){
 	$middle .= '<div class="column">
 					<a href="' . $xml2->url[$i] . '">
 						<div class="card">
