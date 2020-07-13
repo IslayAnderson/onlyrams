@@ -1,5 +1,6 @@
 <?php 
 $xml2 = simplexml_load_file($host . "/data/json/rams.xml") or die("Error: Cannot create object");
+#$countXML = count($xml2->sheep->title[$o])
 $top = '<section class="section">
     <div class="container">
       <h1 class="title">Featured Rams</h1>
@@ -10,7 +11,7 @@ $middle .= '<section class="section">
     <div class="container">
       <h1 class="title">Explore Rams</h1>
 	  <div class="columns is-desktop">';
-while($i <= count($xml2->sheep->title[$o])){
+while($i < 100){
 	$middle .= '<div class="column"><a href="' . $xml2->sheep->url[$o] . '"><div class="card">
   <div class="card-image">
     <figure class="image is-4by3">
