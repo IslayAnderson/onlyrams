@@ -1,5 +1,5 @@
 <?php 
-$xml2 = simplexml_load_file("../data/json/rams.xml") or die("Error: Cannot create object");
+$xml2 = simplexml_load_file($host . "/data/json/rams.xml") or die("Error: Cannot create object");
 $top = '<section class="section">
     <div class="container">
       <h1 class="title">Featured Rams</h1>
