@@ -2025,7 +2025,11 @@ JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't fin
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 1594638934229	Marionette	INFO	Listening on port 53984
 1594638934255	Marionette	WARN	TLS certificate errors will be ignored for this session
-1594638952714	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\MrAnd\\AppData\\Local\\Temp\\rust_mozprofile.MRi8p62AfDft"
+1594639039078	Marionette	INFO	Stopped listening on port 53984
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ile" "C:\\Users\\MrAnd\\AppData\\Local\\Temp\\rust_mozprofile.MRi8p62AfDft"
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
 1594638955126	Marionette	INFO	Listening on port 54067
 1594638955385	Marionette	WARN	TLS certificate errors will be ignored for this session
