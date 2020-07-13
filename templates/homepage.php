@@ -5,10 +5,10 @@ $top = '<section class="section">
     <div class="container">
       <h1 class="title">Explore Rams</h1>
 	  <div class="columns is-desktop">';
-$i=0;
+$i=1;
 $middle = '';
 while($i < 100){
-	if($i % 4 == 0 && $i != 0){
+	if($i % 4 == 0 && $i != 1){
 	$middle .= '<div class="column">
 					<a href="' . $xml2->url[$i] . '">
 						<div class="card">
