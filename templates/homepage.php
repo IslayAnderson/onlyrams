@@ -52,6 +52,7 @@ while($i < 100){
 	  </div>
 	  </div>
 	  </div><div class="columns is-desktop">';
+}
 	$i++;
 	}
 
