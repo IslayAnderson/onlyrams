@@ -31,10 +31,11 @@ while($i <= count($xml2->sheep->title[$o])){
     </div>
   </div>
 </div></div></a></div>';
-	}}
+	}
+	
 $i++;
-}
-curl_close($ch);
+
+
 $middle .= '
     </div>
 	</div>
