@@ -31,6 +31,7 @@ while($i < 100){
         <p class="subtitle is-6">' . $xml2->sheep->location[$i] . ', ' . $xml2->sheep->age[$i] . '</p>
       </div>
 	  </div>
+	  </div>
 	  </div><div class="columns is-desktop">';
 }else{
 	$middle .= '<div class="column"><a href="' . $xml2->sheep->url[$i] . '"><div class="card">
