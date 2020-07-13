@@ -21,7 +21,7 @@ options = Options()
 
 options.headless = True
 
-driver = webdriver.Firefox(options=options, executable_path = r'geckodriver')
+driver = webdriver.Firefox(options=options, executable_path = r'/var/www/vhosts/onlyrams.co.uk/httpdocs/data/geckodriver')
 
 #driver = webdriver.Firefox()
 driver.implicitly_wait(2)
