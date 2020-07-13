@@ -1,7 +1,7 @@
 <?php 
 $xml2 = simplexml_load_file($host . "/data/json/rams.xml") or die("Error: Cannot create object");
 #$countXML = count($xml2->root->title[$i])
-echo $xml2
+echo $xml2;
 $top = '<section class="section">
     <div class="container">
       <h1 class="title">Explore Rams</h1>
