@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <page>
-	<useTemplate>yess</useTemplate> <!-- when true the a template file needs to be specified -->
+	<useTemplate>false</useTemplate> <!-- when true the a template file needs to be specified -->
 	<template>page</template> <!-- Specify template file here -->
-	<usehtml></usehtml> <!-- when true all entries in content will be posted between the head and foot without a template -->
+	<usehtml>true</usehtml> <!-- when true all entries in content will be posted between the head and foot without a template -->
 	<title>Legal Information</title>
 	<description>Legal information regarding onlyrams</description>
 	<contentTitle>Legal Information</contentTitle> <!-- used for page H1 symanticly -->
