@@ -19,11 +19,6 @@ while($i < 100){
 							</div>
 							<div class="card-content">
 								<div class="media">
-									<div class="media-left">
-										<figure class="image is-48x48">
-											<img class="lazy-load-me" desk-src="' . $xml2->img[$i] . '" alt="Placeholder image">
-										</figure>
-									</div>
 									<div class="media-content">
 										<p class="title is-4">' . $xml2->title[$i] . '</p>
 										<p class="subtitle is-6">' . $xml2->location[$i] . ', ' . $xml2->age[$i] . '</p>
@@ -46,11 +41,6 @@ while($i < 100){
 							</div>
 							<div class="card-content">
 								<div class="media">
-									<div class="media-left">
-										<figure class="image is-48x48">
-											<img class="lazy-load-me" desk-src="' . $xml2->img[$i] . '" alt="Placeholder image">
-										</figure>
-									</div>
 									<div class="media-content">
 										<p class="title is-4">' . $xml2->title[$i] . '</p>
 										<p class="subtitle is-6">' . $xml2->location[$i] . ', ' . $xml2->age[$i] . '</p>
