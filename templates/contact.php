@@ -1,7 +1,7 @@
 <?php 
 $top = '
 			<section class="section">
-				<div class="container"><h1 style="text-align:center;">' . $xml->contentTitle . '</h1>';
+				<div class="container" style="text-align:center;"><h1>' . $xml->contentTitle . '</h1>';
 $middle = '
 <form class="contact">
 					<span class="">
@@ -27,7 +27,7 @@ $middle = '
 						Send Your Message
 					</button>
 				</form>
-				<div class="exceptions" id="exceptions">
+				<div class="exceptions" style="text-align:center;" id="exceptions">
 				</div>
 ';
 $bottom = '
