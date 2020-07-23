@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <page>
-	<useTemplate>false</useTemplate> <!-- when true the a template file needs to be specified -->
+	<useTemplate>true</useTemplate> <!-- when true the a template file needs to be specified -->
 	<template>page</template> <!-- Specify template file here -->
 	<usehtml>true</usehtml> <!-- when true all entries in content will be posted between the head and foot without a template -->
 	<title>Legal Information</title>
