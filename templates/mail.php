@@ -10,7 +10,7 @@ $pre = wordwrap($pre,70);
 try{
 	// send email
 	mail("sheepmaster@onlyrams.co.uk", $name." - ".$email." - SHEEP TIME",$pre.$msg);
-	mail($email, .$name." - ".$email." - Thank you",$msg);
+	mail($email, $name." - ".$email." - Thank you",$msg);
 	$error = 'Our TechSheep have made a boo boo and are on the case';
     throw new Exception($error);
 } catch (Exception $e) {
