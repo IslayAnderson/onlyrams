@@ -1,4 +1,4 @@
-
+var mailSend = document.getElementsByClassName('mailSend')[0];
 var replaceSrc = function () {
 	x = document.getElementsByClassName('lazy-load-me');
 	for (i = 0; i < x.length; i++){
@@ -27,13 +27,15 @@ window.addEventListener('scroll', replaceSrc, false);
 
 function contact(){
 	event.preventDefault()
-	email = document.getElementsByName('email')[0];
-	name = document.getElementsByName('name')[0];
-	message = document.getElementsByName('message')[0];
+	email = document.getElementsByName('email')[0].value;
+	name = document.getElementsByName('name')[0].value;
+	message = document.getElementsByName('message')[0].value;
 	mail = 'https://onlyrams.co.uk/mail?email='+email+'&name='+name+'&message='+message;
 	xhttp = new XMLHttpRequest();
 	xhttp.open("GET", mail, true);
 	xhttp.send();
 	document.getElementById("exceptions").innerHTML = xhttp.responseText;
 }
-document.getElementsByClassName('mailSend')[0].addEventListener('click', contact, false)
+if(mailSend){
+	mailSend.addEventListener('click', contact, false)
+}
