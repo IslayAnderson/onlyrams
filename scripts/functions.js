@@ -24,3 +24,14 @@ var replaceSrc = function () {
 };
 replaceSrc();
 window.addEventListener('scroll', replaceSrc, false);
+
+function contact(){
+	email = document.getElementsByName('email')[0];
+	name = document.getElementsByName('name')[0];
+	message = document.getElementsByName('message')[0];
+	mail = 'https://onlyrams.co.uk/mail?email='+email+'&name='+name+'&message='+message;
+	xhttp.open("POST", mail, true);
+	xhttp.send();
+	document.getElementById("exceptions").innerHTML = xhttp.responseText;
+}
+document.getElementsByClassName('mailSend')[0].addEventListener('click', contact, false)
