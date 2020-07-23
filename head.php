@@ -50,15 +50,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 <nav class="level">
   <p class="level-item has-text-centered">
-    <a class="link is-info">Home</a>
+    <a href="https://onlyrams.co.uk" class="link is-info">Home</a>
   </p>
   <p class="level-item has-text-centered">
-    <a class="link is-info">contact Us</a>
+    <a href="/contact-us" class="link is-info">contact Us</a>
   </p>
   <p class="level-item has-text-centered">
-    <a class="link is-info">Submit Your Ram</a>
-  </p>
-  <p class="level-item has-text-centered">
-    <a class="link is-info">Legal information</a>
+    <a href="/legal-information" class="link is-info">Legal information</a>
   </p>
 </nav>
