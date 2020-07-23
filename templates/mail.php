@@ -4,7 +4,7 @@ $name = $_GET["name"];
 $email = $_GET["email"];
 $msg = $_GET["message"];
 $msg = wordwrap($msg,70);
-$pre = "Dear".$name."\n Thank you for getting in touch \n Your message:\n";
+$pre = "Dear ".$name."\n Thank you for getting in touch \n Your message:\n";
 $pre = wordwrap($pre,70);
 
 try{

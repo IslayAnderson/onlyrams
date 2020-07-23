@@ -26,6 +26,7 @@ replaceSrc();
 window.addEventListener('scroll', replaceSrc, false);
 
 function contact(){
+	event.preventDefault()
 	email = document.getElementsByName('email')[0];
 	name = document.getElementsByName('name')[0];
 	message = document.getElementsByName('message')[0];
