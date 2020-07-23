@@ -30,7 +30,7 @@ function contact(){
 	name = document.getElementsByName('name')[0];
 	message = document.getElementsByName('message')[0];
 	mail = 'https://onlyrams.co.uk/mail?email='+email+'&name='+name+'&message='+message;
-	xhttp.open("POST", mail, true);
+	xhttp.open("GET", mail, true);
 	xhttp.send();
 	document.getElementById("exceptions").innerHTML = xhttp.responseText;
 }

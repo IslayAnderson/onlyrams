@@ -8,7 +8,7 @@ $uri = str_replace("/", "-", $urip);
 if($uri == "" || $uri == "-"){
 	$uri = "home";
 }
-$xml = simplexml_load_file("./XML/" . $uri . ".xml") or die("Error: Cannot create object");
+$xml = simplexml_load_file("./XML/" . explode("?", $uri)[0] . ".xml") or die("Error: Cannot create object");
 $title = $xml->title;
 $description = $xml->description;
 $useTemplate = $xml->useTemplate;
