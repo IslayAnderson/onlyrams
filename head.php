@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<!--<link href="<?php echo $host ?>/css/style.css" rel="stylesheet">  Custom Styles -->
+<link href="<?php echo $host ?>/css/style.css" rel="stylesheet"> <!-- Custom Styles -->
 <link href="<?php echo $host ?>/css/bulma.min.css" rel="stylesheet"> <!-- Bulma Styles -->
 <title><?php echo $title; ?></title>
 <meta name="description" content="<?php echo $description; ?>">
