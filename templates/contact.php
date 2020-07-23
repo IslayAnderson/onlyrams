@@ -1,7 +1,7 @@
 <?php 
 $top = '
 			<section class="section">
-				<div class="container"><h1>' . $xml->contentTitle . '</h1>';
+				<div class="container"><h1 style="text-align:center;">' . $xml->contentTitle . '</h1>';
 $middle = '
 <form class="contact">
 					<span class="">

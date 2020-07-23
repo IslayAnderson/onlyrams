@@ -11,3 +11,55 @@
     object-position: center;
     height: 100%;
 }
+/* ==== buttons ==== */
+input {
+    width: 80%;
+    display: block;
+    padding: 5px;
+    margin: 5px auto;
+    border: solid #00000061 2px;
+    border-radius: 10px;
+    text-align: center;
+}
+input:focus {
+    border: solid #00000061 2px;
+    border-radius: 10px;
+	-webkit-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.5);
+	box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.5);
+}
+textarea {
+    width: 80%;
+    min-height: 100px;
+    display: block;
+    padding: 5px;
+    margin: 5px auto;
+    border: solid #00000061 2px;
+    border-radius: 10px;
+    text-align: center;
+}
+textarea:focus {
+    border: solid #00000061 2px;
+    border-radius: 10px;
+	-webkit-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.5);
+	box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.5);
+}
+.mailSend.btn {
+    margin: 5px auto;
+    text-align: center;
+    display: block;
+    color: #11b0ff;
+    background: #fff;
+    border: solid 2px;
+    border-radius: 10px;
+    font-size: 20px;
+    vertical-align: middle;
+    line-height: 30px;
+}
+.mailSend.btn:focus {
+	background: #f3f3f3;
+	-webkit-box-shadow: inset -2px -2px 5px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: inset -2px -2px 5px 0px rgba(0,0,0,0.5);
+	box-shadow: inset -2px -2px 5px 0px rgba(0,0,0,0.5);
+}
