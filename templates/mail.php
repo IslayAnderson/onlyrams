@@ -11,10 +11,8 @@ try{
 	// send email
 	mail("sheepmaster@onlyrams.co.uk", $name." - ".$email." - SHEEP TIME",$msg);
 	mail($email, $name." - ".$email." - Thank you",$pre.$msg);
-	echo 'Email Sent, Baaaaa!';
+	header('form-response: Email Sent, Baaaaa!');
 } catch (Exception $e) {
-	$error = 'Our TechSheep have made a boo boo and are on the case';
-    throw new Exception($error);
-    echo '\n',  $e->getMessage(), "\n";
+	header('form-response: Our TechSheep have made a boo boo and are on the case');
 }
 ?>

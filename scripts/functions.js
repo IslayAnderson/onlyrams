@@ -34,7 +34,9 @@ function contact(){
 	xhttp = new XMLHttpRequest();
 	xhttp.open("GET", mail, true);
 	xhttp.send();
-	document.getElementById("exceptions").innerHTML = xhttp.responseText;
+	xhttp.onreadystatechange = function() {
+		document.getElementById("exceptions").innerHTML = this.getResponseHeader("form-response");
+	}
 }
 if(mailSend){
 	mailSend.addEventListener('click', contact, false)
